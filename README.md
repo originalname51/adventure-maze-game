@@ -37,8 +37,11 @@ Once the end room is successfully navigated to the end game prompt will generate
 
 YOU HAVE FOUND THE END ROOM. CONGRATULATIONS!
 YOU TOOK 2 STEPS. YOUR PATH TO VICTORY WAS:
+
 Wally-Room
+
 Lounge
+
 %
 
 The room files are housed directory "stinero.rooms.<pid>". The created directory is not deleted after the program has completed. All unnecessary files can be deleted by typing "Make clean".
