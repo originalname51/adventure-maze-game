@@ -5,7 +5,9 @@ This is an extremely simplified version of a game like Colossal Cave Adventure a
 In order to run the program do the following:
 
 1) Download all the files into the same directory. 
+
 2) Open a command prompt, navigate to inside the folder and type "Make all". 
+
 3) Run the game by typing "./adventure" in the command prompt (while in the same folder).
 
 To run the unit test follow 1 and 2 and then type "Make runtests". Results will be in unittestresult.out.
