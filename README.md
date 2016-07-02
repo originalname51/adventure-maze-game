@@ -51,12 +51,19 @@ The room files are housed directory "stinero.rooms.<pid>". The created directory
 The room is held in a struct. Most of the program logic around building the maze and reading it from a file depends on this so I have explained it here.
 
 typedef struct room {
+
 	int acceptingConnections; 	-> Used when the maze is being created.
+	
 	int roomsConnected; 		-> Used to show how many rooms are connected to this room. Serves as an Index for connectedRooms.
+	
 	int roomNumber;			-> Integer room number. Used to see which room.
+	
 	int * connectedRooms;		-> Array of connected rooms.
+	
 	int endRoom;			-> 0 if not the end room, 1 if end room.
+	
 	int startRoom;			-> 0 if not the start room, 1 if start room.
+	
 } room;
 
 
