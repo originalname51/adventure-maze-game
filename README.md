@@ -59,6 +59,6 @@ typedef struct room {
 
 
 The files rely heavily on int room_number(char *name); *char room_number(int) which will translate a character array room name (e.g. Wally-Room) to a number (e.g. 1). This amount of coupling is not ideal
-and int he future I would probably just 
+and int he future I would probably use an enum.
 
 Thank you for reviewing. I hope you like it!
